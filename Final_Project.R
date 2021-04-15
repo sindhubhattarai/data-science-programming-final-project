@@ -128,7 +128,7 @@ ggplot(data, aes(price, yr_built, color= bathrooms)) + geom_point()
 ggplot(data, aes(price, yr_renovated, color= bathrooms)) + geom_point()
 
 #Boxplot to check outliers in grade 
-boxplot(data$grade)
+#boxplot(data$grade)
 
 
 #correlation  between price and grade
@@ -137,3 +137,4 @@ cor_5 <- cor.test(data$price, data$grade,
 cor_5
 ggplot(data, aes(price, grade , color= bedrooms)) + geom_point()
 #boxplot(data$grade)
+
