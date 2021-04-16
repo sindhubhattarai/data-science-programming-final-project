@@ -145,4 +145,4 @@ summary(regr_1)
 #linear regression with two predictor variables i.e grade and sqft_lot
 regr_2= lm(price ~ sqft_lot + grade , data = data)
 summary(regr_2)
-
+unique(data$zipcode)
